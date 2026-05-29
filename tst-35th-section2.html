@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TST35th - History & Numbers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Outfit:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+<style>:root{--A:#0a77b9;--B:#0059a4;--N:#293359;--T:#a3e0e4;--E:#d8eff2;--R:#ca3116;--G:#fde6e2;--Y:#ffd83a;--pp:#ffffff;--bg:#f6f9fb;--bgs:#eef5f8;--ik:#1a2433;--i2:#4a5a6e;--mu:#8b97a8;--ln:#e4ecf2;--ra:16px;--rl:28px;--sh:0 8px 24px -12px rgba(20,50,100,0.12);--sl:0 30px 60px -28px rgba(20,50,100,0.22);}*{box-sizing:border-box;margin:0;padding:0;}html{scroll-behavior:smooth;}body{background:var(--pp);color:var(--ik);font-family:'Noto Sans JP',-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;font-feature-settings:"palt";line-height:1.85;overflow-x:hidden;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:anywhere;line-break:strict;}img{max-width:100%;display:block;}a{color:inherit;text-decoration:none;}.en{font-family:'Outfit','Noto Sans JP',sans-serif;letter-spacing:0.02em;}.script{font-family:'Cormorant Garamond',serif;font-style:italic;}.nb{display:inline-block;}.wrap{max-width:1120px;margin:0 auto;padding:0 24px;}.hero{padding:40px 0 60px;position:relative;overflow:hidden;}.hero-inner{max-width:1120px;margin:0 auto;padding:0 24px;position:relative;}.hero-banner{position:relative;border-radius:var(--rl);overflow:hidden;aspect-ratio:16 / 9;background:#d8edf6;}.hero-banner img{width:100%;height:100%;object-fit:cover;object-position:center;}.hero-banner .badge{position:absolute;top:18px;right:18px;background:rgba(255,255,255,0.92);color:var(--N);padding:8px 18px;border-radius:999px;font-size:12px;font-weight:700;}.hero-meta{margin-top:30px;display:grid;grid-template-columns:repeat(4, 1fr);background:white;border-radius:var(--ra);border:1px solid var(--ln);overflow:hidden;}.hero-meta > div{padding:22px 20px;border-right:1px solid var(--ln);}.hero-meta > div:last-child{border-right:none;}.hero-meta dt{font-size:11px;color:var(--mu);font-weight:700;letter-spacing:0.1em;margin-bottom:6px;}.hero-meta dd{font-family:'Outfit',sans-serif;font-size:22px;font-weight:800;color:var(--N);line-height:1.1;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}.hero-meta dd .label{font-family:'Noto Sans JP',sans-serif;font-size:13px;font-weight:700;color:var(--B);white-space:nowrap;}.marquee{overflow:hidden;padding:18px 0;background:var(--B);color:white;position:relative;}.marquee-track{display:flex;width:max-content;gap:40px;font-size:14px;font-weight:700;letter-spacing:0.05em;align-items:center;}.marquee-track .dot{color:var(--T);font-size:8px;}.marquee-track .en{font-family:'Outfit',sans-serif;font-weight:600;}.marquee-track .heart{color:var(--R);}section{position:relative;}.section{padding:100px 0;}.section.bg{background:var(--bg);}.section-head{text-align:center;margin-bottom:60px;}.section-eyebrow{display:inline-flex;align-items:center;gap:10px;padding:8px 22px;background:var(--E);color:var(--N);border-radius:999px;font-family:'Outfit',sans-serif;font-size:13px;font-weight:700;letter-spacing:0.2em;margin-bottom:28px;}.section-eyebrow.red{background:var(--G);color:var(--R);}.section-title{font-size:clamp(26px, 3.5vw, 40px);font-weight:800;line-height:1.45;letter-spacing:0.01em;color:var(--N);margin-bottom:18px;}.section-title .accent{color:var(--B);}.section-title .num{font-family:'Outfit',sans-serif;color:var(--A);font-weight:800;}.section-lead{font-size:15px;line-height:2;color:var(--i2);max-width:680px;margin:0 auto;}.president-card{background:white;border-radius:var(--rl);padding:56px 60px;border:1px solid var(--ln);max-width:820px;margin:0 auto;}.swap-note{font-size:10px;color:var(--mu);margin-top:8px;}.president-msg{font-size:16px;line-height:2.05;color:#2b3a52;letter-spacing:0.03em;}.president-msg .opening{font-size:17px;color:var(--N);font-weight:500;line-height:2;}.president-msg p{margin-bottom:1.7em;}.president-msg .quote{margin:2em 0;padding:26px 30px;border-radius:var(--ra);color:var(--N);font-weight:700;font-size:17px;line-height:2.1;border-left:4px solid var(--B);letter-spacing:0.04em;}.president-msg .quote .quote-emph{display:inline-block;margin:4px 0;padding:2px 6px;background:rgba(255,255,255,0.7);border-radius:4px;}.president-msg .strong-text{color:var(--B);font-weight:700;}.president-msg .highlight-word{color:var(--B);font-weight:700;padding:0 2px;}.president-msg .signature{margin-top:3em;padding-top:28px;border-top:1px solid var(--ln);text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:6px;}.president-msg .signature .sig-date{font-size:14px;color:var(--mu);font-weight:500;letter-spacing:0.06em;}.president-msg .signature .sig-company{font-size:16px;color:var(--N);font-weight:500;letter-spacing:0.04em;}.president-msg .signature .sig-name{font-family:'Noto Serif JP','Noto Sans JP',serif;font-size:22px;color:var(--B);font-weight:700;letter-spacing:0.08em;margin-top:2px;}.pc-br{display:inline;}.logo-showcase{padding:80px 0;background:white;text-align:center;}.logo-showcase .container{max-width:720px;margin:0 auto;padding:0 24px;}.logo-showcase .label{display:inline-flex;align-items:center;gap:10px;padding:8px 22px;background:var(--E);color:var(--N);border-radius:999px;font-family:'Outfit',sans-serif;font-size:13px;letter-spacing:0.2em;font-weight:700;margin-bottom:28px;}.logo-showcase .logo-img{max-width:360px;margin:0 auto 20px;border-radius:var(--ra);}.logo-showcase .caption{font-size:16px;color:var(--N);font-weight:500;line-height:2;letter-spacing:0.03em;}.logo-showcase .caption .accent{color:var(--B);font-weight:700;}.timeline{max-width:860px;margin:0 auto;position:relative;padding:30px 0;}.tl-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px;margin-bottom:32px;position:relative;}.tl-card{background:white;border-radius:var(--ra);padding:20px 22px;border:1px solid var(--ln);}.tl-row.left .tl-card{grid-column:1;text-align:right;}.tl-row.right .tl-card{grid-column:3;}.tl-row.left .tl-empty{grid-column:3;}.tl-row.right .tl-empty{grid-column:1;}.tl-node{grid-column:2;width:32px;height:32px;background:white;border:4px solid var(--A);border-radius:50%;z-index:2;}.tl-row.highlight .tl-node{border-color:var(--R);background:var(--R);}.tl-row.highlight .tl-card{border-color:var(--A);}.tl-row.final{margin-top:50px;margin-bottom:16px;}.tl-row.final .tl-node{width:44px;height:44px;border-width:5px;border-color:var(--R);background:var(--R);position:relative;}.tl-row.final .tl-card{position:relative;padding:36px 32px 32px;border:2px solid var(--A);overflow:hidden;}.tl-row.final .tl-card .ribbon{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;background:var(--R);color:white;border-radius:999px;font-family:'Outfit',sans-serif;font-size:11px;font-weight:800;letter-spacing:0.2em;margin-bottom:14px;position:relative;z-index:2;}.tl-row.final .tl-card .tl-year{font-size:56px;line-height:1;-webkit- -webkit-text-fill-color:transparent;color:transparent;position:relative;z-index:2;margin-bottom:6px;}.tl-row.final .tl-card .tl-month{color:var(--B);font-weight:800;position:relative;z-index:2;}.tl-row.final .tl-card .tl-title{font-size:19px;color:var(--N);position:relative;z-index:2;}.tl-row.final .tl-card .tl-desc{color:#2b3a52;font-size:14px;line-height:1.85;position:relative;z-index:2;}.tl-row.final .tl-card .tl-row.final .tl-card .tl-row.final .tl-card .tl-row.final .tl-card .tl-row.final .tl-card .tl-row.final .tl-card .tl-year{font-family:'Outfit',sans-serif;font-size:26px;font-weight:800;color:var(--B);line-height:1;margin-bottom:4px;}.tl-row.highlight .tl-year{color:var(--R);}.tl-month{font-size:11px;color:var(--mu);font-weight:700;letter-spacing:0.1em;margin-bottom:10px;}.tl-title{font-size:15px;font-weight:700;color:var(--N);margin-bottom:6px;line-height:1.5;}.tl-desc{font-size:13px;color:var(--i2);line-height:1.75;}.num-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:18px;margin-top:50px;}.num-card{padding:36px 28px;background:white;border-radius:var(--ra);border:1px solid var(--ln);text-align:center;display:flex;flex-direction:column;word-break:keep-all;overflow-wrap:anywhere;line-break:strict;}.num-card .top{font-family:'Outfit',sans-serif;font-size:11px;color:var(--mu);font-weight:700;letter-spacing:0.2em;margin-bottom:16px;}.num-card .big{font-family:'Outfit',sans-serif;font-size:clamp(56px, 7vw, 84px);line-height:1;font-weight:800;color:var(--B);margin-bottom:10px;letter-spacing:-0.02em;}.num-card:nth-child(odd) .big{color:var(--B);}.num-card:nth-child(even) .big{color:var(--A);}.num-card .big sup{font-size:0.45em;margin-left:2px;vertical-align:top;top:0.2em;color:var(--R);}.num-card .unit{font-size:14px;font-weight:700;color:var(--N);margin-bottom:12px;min-height:calc(1.4em * 2);display:flex;align-items:center;justify-content:center;}.num-card .cap{font-size:13px;color:var(--i2);line-height:1.8;flex:1;}.lineup-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:20px;margin-top:56px;}.lineup-card{position:relative;padding:36px 28px 32px;background:white;border-radius:20px;border:1px solid var(--ln);overflow:hidden;display:flex;flex-direction:column;word-break:keep-all;overflow-wrap:anywhere;line-break:strict;}.lineup-card .watermark{position:absolute;top:14px;right:18px;font-family:'Outfit',sans-serif;font-size:80px;font-weight:800;line-height:1;color:var(--cc,var(--B));opacity:0.07;letter-spacing:-0.04em;z-index:0;}.lineup-card .icon-plate{position:relative;width:64px;height:64px;border-radius:18px;display:flex;align-items:center;justify-content:center;margin-bottom:22px;z-index:1;}.lineup-card .icon-plate svg{width:30px;height:30px;stroke:white;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round;}.lineup-card .tag{position:relative;font-family:'Outfit',sans-serif;font-size:11px;color:var(--cc,var(--B));font-weight:800;letter-spacing:0.2em;margin-bottom:10px;z-index:1;}.lineup-card h3{position:relative;font-size:19px;font-weight:800;color:var(--N);margin-bottom:12px;line-height:1.55;z-index:1;letter-spacing:0.01em;min-height:calc(1.55em * 2);display:flex;align-items:flex-start;}.lineup-card p{position:relative;font-size:13.5px;color:#2b3a52;line-height:1.95;z-index:1;flex:1;}.lineup-card.broadcasting{--cc:#0a77b9;--cc2:#5fb3df;}.lineup-card.internet{--cc:#0059a4;--cc2:#2d8fd4;}.lineup-card.mobile{--cc:#293359;--cc2:#4c5780;}.lineup-card.telephone{--cc:#ca3116;--cc2:#e96b54;}.lineup-card.wifi{--cc:#1a8a96;--cc2:#5abec8;}.lineup-card.energy{--cc:#d68a17;--cc2:#f0b85a;}.lineup-card.localdx{--cc:#1a8a96;--cc2:#5abec8;}.next-chapter{position:relative;padding:140px 0 120px;color:white;overflow:hidden;}.nc-inner{position:relative;z-index:2;max-width:1120px;margin:0 auto;padding:0 24px;}.nc-badge{display:inline-flex;align-items:center;gap:12px;padding:8px 22px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.18);border-radius:999px;color:white;font-family:'Outfit',sans-serif;font-size:13px;font-weight:700;letter-spacing:0.25em;}.nc-head{text-align:center;margin-bottom:90px;}.nc-head .nc-badge{margin-bottom:32px;}.nc-head h2{font-size:clamp(34px, 5vw, 60px);font-weight:900;line-height:1.3;letter-spacing:0.01em;margin-bottom:22px;}.nc-head h2 .gradient-text{-webkit- -webkit-text-fill-color:transparent;}.nc-head h2 .num{font-family:'Outfit',sans-serif;color:var(--T);font-weight:800;}.nc-head .lead{font-size:15px;line-height:2;color:rgba(255,255,255,0.78);max-width:680px;margin:0 auto;}.pillars{display:grid;grid-template-columns:repeat(3, 1fr);gap:20px;margin-bottom:110px;}.pillar{position:relative;padding:40px 30px 32px;border:1px solid rgba(255,255,255,0.12);-webkit- border-radius:22px;color:white;text-align:left;overflow:hidden;display:flex;flex-direction:column;word-break:keep-all;overflow-wrap:anywhere;line-break:strict;}.pillar .p-num-row{display:flex;align-items:center;gap:14px;margin-bottom:26px;}.pillar .p-num{font-family:'Outfit',sans-serif;font-size:38px;line-height:1;font-weight:800;color:white;letter-spacing:-0.04em;}.pillar .p-num-line{flex:1;height:1px;}.pillar .p-tag{font-family:'Outfit',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.3em;color:var(--pg);}.pillar h4{font-size:20px;font-weight:700;color:white;margin-bottom:20px;line-height:1.7;min-height:calc(1.7em * 3);letter-spacing:0.02em;}.pillar p{font-size:15px;color:rgba(255,255,255,0.86);line-height:2.05;letter-spacing:0.03em;flex:1;}.pillar:nth-child(1){--pg:#5fb3df;}.pillar:nth-child(2){--pg:#5abec8;}.pillar:nth-child(3){--pg:#f08266;}:root{--tc:#0080e0;--tbd:#0060c0;--tp:#e00060;--tmg:#a02080;--tpu:#6040a0;--tn:#000020;}.nc-launch{position:relative;margin:90px 0 100px;padding:56px 56px 52px;border-radius:28px;overflow:hidden;display:grid;grid-template-columns:1.15fr 1fr;gap:56px;align-items:center;}.nc-launch-info{position:relative;z-index:2;}.nc-launch-info .marker{display:inline-flex;align-items:center;gap:10px;padding:7px 18px 7px 14px;color:white;border-radius:999px;font-family:'Outfit',sans-serif;font-size:12px;font-weight:800;letter-spacing:0.18em;margin-bottom:24px;}.nc-launch-info .marker .dot{width:8px;height:8px;background:white;border-radius:50%;}.nc-launch-info .lead-en{font-family:'Outfit',sans-serif;font-size:13px;-webkit- -webkit-text-fill-color:transparent;letter-spacing:0.3em;font-weight:800;margin-bottom:18px;}.nc-launch-info h3{font-size:clamp(26px, 3.4vw, 40px);font-weight:900;line-height:1.45;color:var(--tn);margin-bottom:24px;letter-spacing:0.01em;}.nc-launch-logo{display:block;max-width:320px;height:auto;margin:6px 0 22px;}.nc-launch-info p{font-size:15px;line-height:2.05;color:#2b3a52;margin-bottom:30px;letter-spacing:0.03em;}.nc-launch-info p .em{color:var(--tbd);font-weight:700;padding:0 2px;}.nc-launch-info p .em-pink{color:var(--tp);font-weight:700;padding:0 2px;}.nc-launch-info .link{display:inline-flex;align-items:center;gap:12px;padding:16px 32px;color:white;border-radius:999px;font-family:'Outfit',sans-serif;font-size:13px;font-weight:800;letter-spacing:0.15em;}.nc-launch-features{position:relative;z-index:2;display:grid;gap:14px;}.lf-item{display:flex;align-items:flex-start;gap:18px;padding:20px 22px;background:#ffffff;border:1px solid rgba(0,32,96,0.10);border-radius:16px;position:relative;overflow:hidden;}.lf-item .lf-num{font-family:'Outfit',sans-serif;font-size:26px;font-weight:800;-webkit- -webkit-text-fill-color:transparent;min-width:40px;line-height:1.1;}.lf-item .lf-text{font-size:13.5px;color:#4a5a6e;line-height:1.75;}.lf-item .lf-text strong{display:block;color:var(--tn);font-size:15.5px;font-weight:800;margin-bottom:5px;letter-spacing:0.02em;}.nc-thanks{text-align:center;position:relative;}.nc-thanks .eyebrow{font-family:'Outfit',sans-serif;font-size:14px;color:var(--T);letter-spacing:0.35em;font-weight:700;margin-bottom:24px;}.nc-thanks .jp-big{font-size:clamp(38px, 5.8vw, 68px);font-weight:900;letter-spacing:0.02em;line-height:1.3;margin-bottom:26px;color:white;}.nc-thanks .jp-big .accent{-webkit- -webkit-text-fill-color:transparent;}.nc-thanks .en-sub{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(22px, 2.6vw, 32px);font-weight:400;color:rgba(255,255,255,0.92);margin-bottom:40px;letter-spacing:0.04em;}.nc-thanks .sign{max-width:580px;margin:0 auto 48px;font-size:16px;line-height:2.1;color:rgba(255,255,255,0.92);letter-spacing:0.03em;}.nc-thanks .stats{display:inline-flex;align-items:center;gap:0;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.16);border-radius:999px;padding:5px;flex-wrap:wrap;justify-content:center;}.nc-thanks .stats span{padding:12px 26px;font-family:'Outfit',sans-serif;font-size:14px;font-weight:700;letter-spacing:0.15em;color:rgba(255,255,255,0.95);position:relative;}.nc-thanks .stats .jp{font-family:'Noto Sans JP',sans-serif;}footer{background:var(--N);color:white;padding:60px 0 30px;}.footer-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;margin-bottom:40px;}.footer-brand{display:flex;align-items:center;margin-bottom:16px;}.footer-brand .logo-img{height:36px;width:auto;}.footer-corp{font-size:14px;line-height:2.1;color:rgba(255,255,255,0.85);}.footer-corp a{color:var(--T);border-bottom:1px solid rgba(163,224,228,0.4);}.footer-corp .corp-label{display:inline-block;min-width:48px;margin-right:10px;padding:2px 8px;background:rgba(255,255,255,0.08);border-radius:4px;font-size:11px;font-weight:700;color:var(--T);letter-spacing:0.08em;text-align:center;vertical-align:2px;}.footer-links{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:13px;}.footer-links a{display:block;padding:6px 0;color:rgba(255,255,255,0.8);}.footer-bottom{padding-top:24px;border-top:1px solid rgba(255,255,255,0.15);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:11px;color:rgba(255,255,255,0.55);}.reveal{opacity:0;transform:translateY(20px);}.reveal.show{opacity:1;transform:translateY(0);}</style>
+</head>
+<body>
+<!-- ========== Timeline ========== -->
+<section class="section bg" id="history">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-eyebrow"><span class="en">35 YEARS OF TST</span></div>
+      <h2 class="section-title">となみ野と歩んだ <span class="num">35</span>年の<span class="accent">あゆみ</span></h2>
+      <p class="section-lead">散村が広がるとなみ野に、衛星通信時代の旗手として産声をあげたのが1991年。<br>地域の暮らしの「あたりまえ」を、ひとつずつ進化させてきました。</p>
+    </div>
+
+    <div class="timeline reveal">
+
+      <div class="tl-row left highlight">
+        <div class="tl-card">
+          <div class="tl-year en">1991</div>
+          <div class="tl-month en">JUNE</div>
+          <div class="tl-title">となみ衛星通信テレビ、開局</div>
+          <div class="tl-desc">砺波市、福野町、福光町で多チャンネル放送をスタート。</div>
+        </div>
+        <div class="tl-node"></div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="tl-row right">
+        <div class="tl-empty"></div>
+        <div class="tl-node"></div>
+        <div class="tl-card">
+          <div class="tl-year en">1992</div>
+          <div class="tl-month en">MAY</div>
+          <div class="tl-title">城端町・井口村・庄川町へエリア拡大</div>
+          <div class="tl-desc">となみ野全域への放送基盤を着々と整備。</div>
+        </div>
+      </div>
+
+      <div class="tl-row left">
+        <div class="tl-card">
+          <div class="tl-year en">1999</div>
+          <div class="tl-month en">NOVEMBER</div>
+          <div class="tl-title">砺波市・福野町・福光町・城端町・井波町・庄川町・井口村全域へエリア拡大</div>
+          <div class="tl-desc">提供サービスエリアを順調に拡大。</div>
+        </div>
+        <div class="tl-node"></div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="tl-row right highlight">
+        <div class="tl-empty"></div>
+        <div class="tl-node"></div>
+        <div class="tl-card">
+          <div class="tl-year en">2000</div>
+          <div class="tl-month en">MAY</div>
+          <div class="tl-title">インターネットサービス提供開始</div>
+          <div class="tl-desc">地域のブロードバンド化の礎を築く。</div>
+        </div>
+      </div>
+
+      <div class="tl-row left highlight">
+        <div class="tl-card">
+          <div class="tl-year en">2001</div>
+          <div class="tl-month en">JANUARY</div>
+          <div class="tl-title">砺波広域圏事務組合業務エリア開局</div>
+          <div class="tl-desc">日本有数の散居村地帯および五箇三村にケーブル網を敷設。砺波市・南砺市全域でサービス提供開始。地域インフラの新時代へ。</div>
+        </div>
+        <div class="tl-node"></div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="tl-row right highlight">
+        <div class="tl-empty"></div>
+        <div class="tl-node"></div>
+        <div class="tl-card">
+          <div class="tl-year en">2002</div>
+          <div class="tl-month en">APRIL</div>
+          <div class="tl-title">小矢部市ケーブルテレビ開局</div>
+          <div class="tl-desc">3市全域でのサービス提供を開始。</div>
+        </div>
+      </div>
+
+      <div class="tl-row left">
+        <div class="tl-card">
+          <div class="tl-year en">2003</div>
+          <div class="tl-month en">APRIL — 全国初</div>
+          <div class="tl-title">県域IP電話「けーぶるふぉん富山」開始</div>
+          <div class="tl-desc">全国で初めて県域CATV局連携のIP電話を実現。</div>
+        </div>
+        <div class="tl-node"></div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="tl-row right">
+        <div class="tl-empty"></div>
+        <div class="tl-node"></div>
+        <div class="tl-card">
+          <div class="tl-year en">2004</div>
+          <div class="tl-month en">OCTOBER</div>
+          <div class="tl-title">地上デジタル再送信／多チャンネルサービス</div>
+          <div class="tl-desc">県内CATV局連携によるデジタル多チャンネル時代へ。</div>
+        </div>
+      </div>
+
+      <div class="tl-row left highlight">
+        <div class="tl-card">
+          <div class="tl-year en">2014</div>
+          <div class="tl-month en">JULY — 光時代へ</div>
+          <div class="tl-title">「TST光」（FTTH）サービス開始</div>
+          <div class="tl-desc">光ファイバーで、となみ野が次のステージへ。</div>
+        </div>
+        <div class="tl-node"></div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="tl-row right">
+        <div class="tl-empty"></div>
+        <div class="tl-node"></div>
+        <div class="tl-card">
+          <div class="tl-year en">2019</div>
+          <div class="tl-month en">OCTOBER</div>
+          <div class="tl-title">「でんき&amp;ケーブルまとめ割」開始</div>
+          <div class="tl-desc">通信×電力のセット割で、暮らしのコストを軽くする。</div>
+        </div>
+      </div>
+
+      <div class="tl-row left">
+        <div class="tl-card">
+          <div class="tl-year en">2020</div>
+          <div class="tl-month en">JULY</div>
+          <div class="tl-title">DAZN／Hulu／Netflix 取り扱い開始</div>
+          <div class="tl-desc">ストリーミング時代に対応した視聴体験を。</div>
+        </div>
+        <div class="tl-node"></div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="tl-row right highlight">
+        <div class="tl-empty"></div>
+        <div class="tl-node"></div>
+        <div class="tl-card">
+          <div class="tl-year en">2021</div>
+          <div class="tl-month en">DECEMBER — FTTH完全整備</div>
+          <div class="tl-title">砺波市・南砺市・小矢部市全域で「TST光」（FTTH）サービスの提供を開始</div>
+          <div class="tl-desc">エリア内全域でFTTH伝送路設備の構築が完了。</div>
+        </div>
+      </div>
+
+      <div class="tl-row left">
+        <div class="tl-card">
+          <div class="tl-year en">2022</div>
+          <div class="tl-month en">FEBRUARY</div>
+          <div class="tl-title">TST光テレビ 4K/8Kパススルー対応</div>
+          <div class="tl-desc">新世代の映像規格に、リビングがもう一段豊かに。</div>
+        </div>
+        <div class="tl-node"></div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="tl-row right">
+        <div class="tl-empty"></div>
+        <div class="tl-node"></div>
+        <div class="tl-card">
+          <div class="tl-year en">2022</div>
+          <div class="tl-month en">APRIL</div>
+          <div class="tl-title">関連会社「なんとエナジー」始動</div>
+          <div class="tl-desc">通信から電力まで。地域の暮らしを支える総合インフラへ。</div>
+        </div>
+      </div>
+
+      <div class="tl-row left">
+        <div class="tl-card">
+          <div class="tl-year en">2024</div>
+          <div class="tl-month en">OCTOBER</div>
+          <div class="tl-title">9ch「TSTコミュニティチャンネル」一本化</div>
+          <div class="tl-desc">砺波・南砺・小矢部の3市を一つのコミチャンへ。</div>
+        </div>
+        <div class="tl-node"></div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="tl-row right final">
+        <div class="tl-empty"></div>
+        <div class="tl-node"></div>
+        <div class="tl-card">
+          <span class="confetti c1"></span>
+          <span class="confetti c2"></span>
+          <span class="confetti c3"></span>
+          <span class="confetti c4"></span>
+          <span class="confetti sparkle">✦</span>
+          <div class="ribbon en">35TH ANNIVERSARY</div>
+          <div class="tl-year en">2026</div>
+          <div class="tl-month en">JUNE 1 — 開局記念日</div>
+          <div class="tl-title">開局35周年、そして次の章へ。</div>
+          <div class="tl-desc">となみ野の未来を繋ぐ「総合情報通信インフラ」として、新たな挑戦へ。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('show');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Count up
+  const countUp = (el) => {
+    const target = parseInt(el.getAttribute('data-count'), 10);
+    if (isNaN(target)) return;
+    const duration = 1500;
+    const start = performance.now();
+    const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+    const step = (now) => {
+      const t = Math.min(1, (now - start) / duration);
+      el.textContent = Math.floor(easeOut(t) * target).toLocaleString();
+      if (t < 1) requestAnimationFrame(step);
+      else el.textContent = target.toLocaleString();
+    };
+    requestAnimationFrame(step);
+  };
+  const cio = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        countUp(e.target);
+        cio.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.4 });
+  document.querySelectorAll('[data-count]').forEach(el => cio.observe(el));
+</script>
+</body>
+</html>
